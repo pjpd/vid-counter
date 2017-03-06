@@ -6,6 +6,8 @@ class StaticPagesController < ApplicationController
     @video_url = params[:website_url]
     agent = Mechanize.new
     agent.get @video_url
+
     @view_count = agent.page.at(".watch-view-count").text.split(" ")[0]
+    @video_title = agent.page.at("//title").text.split(" - ")[0]
   end
 end

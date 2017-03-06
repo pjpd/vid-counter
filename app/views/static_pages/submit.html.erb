@@ -1,6 +1,11 @@
-<section class = "hero container">
-  <h2>Name</h1>
-  <h4>
-    <%= @view_count %> <%= @video_url %>
-  </h2>
+<section class="row row-alt">
+    <section class="container">
+      <h2>
+        <%= @video_title %>
+      </h2>
+      <h1><%= @view_count %></h1>
+    </section>
+</section>
+<section class="hero container">
+  <%= link_to "Start Again", root_url, class: "btn btn-alt" %>
 </section>

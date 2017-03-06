@@ -166,11 +166,11 @@
    margin-bottom: 22px;
  }
  h1 {
-   font-size: 36px;
-   line-height: 44px;
+   font-size: 100px;
+   line-height: 100px;
  }
  h2 {
-   font-size: 24px;
+   font-size: 36px;
    line-height: 44px;
  }
  h3 {
@@ -183,7 +183,7 @@
    color: #a9b2b9;
    font-size: 14px;
    font-weight: 400;
-   text-transform: uppercase;
+   text-transform: lowercase;
  }
  strong {
    font-weight: 400;
@@ -290,12 +290,7 @@
    margin: 66px 0 10px 0;
    text-align: right;
  }
- .primary-nav {
-   font-size: 14px;
-   font-weight: 400;
-   letter-spacing: .5px;
-   text-transform: uppercase;
- }
+
 
  /*
    ========================================
@@ -312,24 +307,6 @@
  .primary-footer small {
    float: left;
    font-weight: 400;
- }
-
- /*
-   ========================================
-   Navigation
-   ========================================
- */
-
- .nav {
-   text-align: right;
- }
- .nav li {
-   display: inline-block;
-   margin: 0 10px;
-   vertical-align: top;
- }
- .nav li:last-child {
-   margin-right: 0;
  }
 
  /*
@@ -351,15 +328,14 @@
    font-size: 24px;
    font-weight: 100;
  }
- .teaser a:hover h3 {
-   color: #a9b2b9;
- }
- .teaser img {
-   border-radius: 5px;
-   display: block;
-   margin-bottom: 22px;
-   max-width: 100%
- }
+
+ /*
+   ========================================
+   Submit
+   ========================================
+ */
+
+
 
  /*
    ========================================

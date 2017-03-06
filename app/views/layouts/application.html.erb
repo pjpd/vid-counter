@@ -7,15 +7,15 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-  <header class="primary-header container group">
-
-      <h1 class="logo">
-        <%= link_to "View Counter", root_url %>
-      </h1>
-      <h3 class="tagline">Find a youtube view count without increasing it.</h3>
-  </header>
 
   <body>
+    <header class="primary-header container group">
+
+        <h1 class="logo">
+          <%= link_to "View Counter", root_url %>
+        </h1>
+        <h3 class="tagline">Find a youtube view count without increasing it.</h3>
+    </header>
     <%= yield %>
   </body>
 </html>
