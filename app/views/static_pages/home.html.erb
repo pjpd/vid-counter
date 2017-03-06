@@ -1,0 +1,11 @@
+<section class="hero container">
+  <%= form_tag "static_pages/submit", :name => "urlform" do %>
+    <label>
+      <h2>Paste youtube url below.<h2>
+      <input class="texturl" type="url" name="website_url" placeholder="Paste link here.">
+    </label>
+    <button class="btn btn-alt" name="submit">
+      <strong>Count!</strong>
+    </button>
+  <% end %>
+</section>
